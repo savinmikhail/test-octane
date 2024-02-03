@@ -9,7 +9,7 @@
         "guzzlehttp/guzzle": "^7.8",
         "laravel/framework": "^10.43.0",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8",
+        "laravel/tinker": "^2.9",
         "spiral/roadrunner-laravel": "^5.12",
         "ext-pdo": "*"
     },
