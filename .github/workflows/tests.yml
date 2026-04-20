@@ -116,7 +116,7 @@ jobs: # Docs: <https://help.github.com/en/articles/workflow-syntax-for-github-ac
   #  continue-on-error: true
   #  steps:
   #    - name: Download built docker image
-  #      uses: actions/download-artifact@v3
+  #      uses: actions/download-artifact@v5
   #      with:
   #        name: docker-image
   #        path: .artifact
@@ -167,7 +167,7 @@ jobs: # Docs: <https://help.github.com/en/articles/workflow-syntax-for-github-ac
                 redis-server --requirepass redis_password
 
       - name: Download built docker image
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v5
         with:
           name: docker-image
           path: .artifact
