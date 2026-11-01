@@ -12,7 +12,7 @@
 #        && NODE_ENV="production" npm run build
 
 # fetch the RoadRunner image
-FROM ghcr.io/roadrunner-server/roadrunner:2.12.3 as roadrunner
+FROM ghcr.io/roadrunner-server/roadrunner:3.0.1 as roadrunner
 
 # fetch the Composer image
 FROM public.ecr.aws/composer/composer:2.11 as composer
